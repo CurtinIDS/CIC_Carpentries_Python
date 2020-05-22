@@ -1,0 +1,50 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/268964i/Desktop/workshop/00-Prerequesite/notebooks
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8889/?token=ef5d5f9c0fe40e6b73f50a5b488fe3898997e31766e231d2
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=ef5d5f9c0fe40e6b73f50a5b488fe3898997e31766e231d2
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook Intro_to_python_pandas.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: bba09d3e-116b-443f-a50d-90cfed132ccf
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel bba09d3e-116b-443f-a50d-90cfed132ccf
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Saving file at /Intro_to_python_pandas.ipynb
+[NotebookApp | INFO] Starting buffering for bba09d3e-116b-443f-a50d-90cfed132ccf:7dbf4ff5f14f42cb87e2fced410c4fb6
+[NotebookApp | INFO] Kernel shutdown: bba09d3e-116b-443f-a50d-90cfed132ccf
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 0 kernels
