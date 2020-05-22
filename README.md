@@ -1,6 +1,6 @@
 # CIC - Carpentries Python Material
 
-[![Binder](https://mybinder.org/badge.svg)]()
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CurtinIC/CIC_Carpentries_Python/master)
 
 
 ## Schedule
