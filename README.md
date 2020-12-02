@@ -10,7 +10,37 @@
 3. Data exploration and visualisation using Pandas
 4. Automating tasks
 
-## Create a conda environment for the workshop (optional)
+## Installing Anaconda
+
+### Windows
+- Open https://www.anaconda.com/distribution/#download-section with your web browser.
+- Download the Anaconda for Windows installer with Python 3.8. (If you are not sure which version to choose, you probably want the 64-bit Graphical Installer Anaconda3-...-Windows-x86_64.exe)
+- Install Python 3 by running the Anaconda Installer, using the recommended settings. **Make sure that Register Anaconda as my default Python 3.x option is checked – it should be in the latest version of Anaconda..**
+
+## MacOS
+- Open https://www.anaconda.com/distribution/#download-section with your web browser.
+- Download the Anaconda Installer with Python 3.8 for macOS (you can either use the Graphical or the Command Line Installer).
+- Follow the Anaconda Python 3 installation instructions. Make sure that the install location is set to “Install only for me” so Anaconda will install its files locally, relative to your home directory. Installing the software for all users tends to create problems in the long run and should be avoided.
+
+## Linux
+- Open https://www.anaconda.com/distribution/#download-section with your web browser.
+- Download the Anaconda Installer with Python 3.8 for Linux.
+
+(The installation requires using the shell. If you aren't comfortable doing the installation yourself stop here and request help at the workshop.)
+- Open a terminal window and navigate to the directory where the executable is downloaded (e.g., `cd ~/Downloads`).
+- Type
+```
+bash Anaconda3-
+```
+- and then press **Tab** to autocomplete the full file name. The name of file you just downloaded should appear. Press Enter. 
+- You will follow the text-only prompts. 
+  - To move through the text, press **Spacebar**. 
+  - Type yes and press enter to approve the license. 
+  - Press **Enter** to approve the default location for the files. 
+  - Type yes and press Enter to prepend Anaconda to your PATH (this makes the Anaconda distribution the default Python).
+- Close the terminal window.
+
+## Create a conda environment for the workshop (optional but recommended)
 
 Anaconda includes an environment manager called conda. Environments allow you to have multiple sets of Python packages installed at the same time, making reproducibility and upgrades easier. You can create, export, list, remove, and update environments that have different versions of Python and/or packages installed in them.
 
