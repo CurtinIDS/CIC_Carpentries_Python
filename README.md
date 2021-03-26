@@ -5,7 +5,7 @@
 
 ## Schedule
 
-1. Introduction to to the workshop and tools - [google slides](https://docs.google.com/presentation/d/1ccPobtWSwACLhfsf71ut2ZYLglCq2HoWn8ehLrv5mtw/edit?usp=sharing)
+1. Introduction to to the workshop and tools - Using [Teams](https://docs.google.com/presentation/d/1ccPobtWSwACLhfsf71ut2ZYLglCq2HoWn8ehLrv5mtw/edit?usp=sharing) or [Webex](https://docs.google.com/presentation/d/1pejiFX8xhioYwiX-b598PjYBCX6Lqj2xcAfcL3cO6iU/edit?usp=sharing).
 2. Introduction to Python
 3. Data exploration and visualisation using Pandas
 4. Automating tasks
