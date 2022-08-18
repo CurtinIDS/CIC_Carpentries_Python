@@ -1,2 +1,3 @@
 .ipynb_checkpoints/
 data/yearly_files/*
+.DS_Store
