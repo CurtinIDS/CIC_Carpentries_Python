@@ -5,7 +5,7 @@
 
 ## Schedule
 
-1. Introduction to to the workshop and tools - [ResBaz Perth 2021 using Webex](https://tinyurl.com/resbaz-python) | CurtinIC workshops using [Teams](https://docs.google.com/presentation/d/1ccPobtWSwACLhfsf71ut2ZYLglCq2HoWn8ehLrv5mtw/edit?usp=sharing) or [Webex](https://docs.google.com/presentation/d/1pejiFX8xhioYwiX-b598PjYBCX6Lqj2xcAfcL3cO6iU/edit?usp=sharing).
+1. Introduction to to the workshop and tools - [ResBaz Perth 2022](https://tinyurl.com/resbaz2022python) | CurtinIC workshops using [Teams](https://docs.google.com/presentation/d/1ccPobtWSwACLhfsf71ut2ZYLglCq2HoWn8ehLrv5mtw/edit?usp=sharing) or [Webex](https://docs.google.com/presentation/d/1pejiFX8xhioYwiX-b598PjYBCX6Lqj2xcAfcL3cO6iU/edit?usp=sharing).
 2. Introduction to Python
 3. Data exploration and visualisation using Pandas
 4. Automating tasks
@@ -14,17 +14,17 @@
 
 ### Windows
 - Open https://www.anaconda.com/distribution/#download-section with your web browser.
-- Download the Anaconda for Windows installer with Python 3.8. (If you are not sure which version to choose, you probably want the 64-bit Graphical Installer Anaconda3-...-Windows-x86_64.exe)
+- Download the Anaconda for Windows installer with Python 3.9. (If you are not sure which version to choose, you probably want the 64-bit Graphical Installer)
 - Install Python 3 by running the Anaconda Installer, using the recommended settings. **Make sure that Register Anaconda as my default Python 3.x option is checked – it should be in the latest version of Anaconda..**
 
 ## MacOS
 - Open https://www.anaconda.com/distribution/#download-section with your web browser.
-- Download the Anaconda Installer with Python 3.8 for macOS (you can either use the Graphical or the Command Line Installer).
+- Download the Anaconda Installer with Python 3.9 for macOS (You can either use the Graphical or the Command Line Installer).
 - Follow the Anaconda Python 3 installation instructions. Make sure that the install location is set to “Install only for me” so Anaconda will install its files locally, relative to your home directory. Installing the software for all users tends to create problems in the long run and should be avoided.
 
 ## Linux
 - Open https://www.anaconda.com/distribution/#download-section with your web browser.
-- Download the Anaconda Installer with Python 3.8 for Linux.
+- Download the Anaconda Installer with Python 3.9 for Linux (Select the 64-Bit (x86) Installer).
 
 (The installation requires using the shell. If you aren't comfortable doing the installation yourself stop here and request help at the workshop.)
 - Open a terminal window and navigate to the directory where the executable is downloaded (e.g., `cd ~/Downloads`).
@@ -44,7 +44,7 @@ bash Anaconda3-
 
 Anaconda includes an environment manager called conda. Environments allow you to have multiple sets of Python packages installed at the same time, making reproducibility and upgrades easier. You can create, export, list, remove, and update environments that have different versions of Python and/or packages installed in them.
 
-You can create a conda environment for this workshop using the provided yml file. The python version and all needed packages are listed in the environment.yml file.
+You can create a conda environment for this workshop using the provided .yml file. The python version and all needed packages are listed in the environment.yml file.
 
 **Using the command line**
 
@@ -62,20 +62,17 @@ On Windows:
 ```
 And finally, on any platform, to install and activate the CIC_Carpentries_Python environment, type:
 ```
-% conda env create -n astropy-workshop --file environment.yml
-% conda activate astropy-workshop
+% conda env create --file environment.yml
+% conda activate cic-workshop
 ```
-Note, you will need conda version 4.6 and later. If you need to update your version use conda update conda.
-
-*conda environment notes adapted from the astropy workshop [repo](https://github.com/astropy/astropy-workshop).
+Note, you will need conda version 4.6 and later. If you need to update your version use `conda update conda`.
 
 **Using Anaconda Navigator**
 
-To use the Anaconda Navigator GUI, check the step by step guide at the end of the [google slides](https://docs.google.com/presentation/d/1ccPobtWSwACLhfsf71ut2ZYLglCq2HoWn8ehLrv5mtw/edit?usp=sharing) accompanying this workshop.
-
+To use the Anaconda Navigator GUI, check the step by step guide at the end of the [google slides](https://tinyurl.com/resbaz2022python) accompanying this workshop.
 
 ## Further Reading
 
-- Using Anaconda for package management ([cheatsheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf)) and [setting up environments](https://medium.com/datareply/working-with-python-environments-anaconda-package-manager-and-ides-663e771b6ed8)
+- Using Anaconda for package management ([cheatsheet](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf)) and [setting up environments](https://medium.com/datareply/working-with-python-environments-anaconda-package-manager-and-ides-663e771b6ed8)
 - [Python](https://www.python.org/), and
 - [Jupyter Notebooks](http://jupyter.org/)
