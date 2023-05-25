@@ -5,7 +5,7 @@
 
 ## Schedule
 
-1. Introduction to to the workshop and tools - [ResBaz Perth 2022](https://tinyurl.com/resbaz2022python) | CurtinIC workshops using [Teams](https://docs.google.com/presentation/d/1ccPobtWSwACLhfsf71ut2ZYLglCq2HoWn8ehLrv5mtw/edit?usp=sharing) or [Webex](https://docs.google.com/presentation/d/1pejiFX8xhioYwiX-b598PjYBCX6Lqj2xcAfcL3cO6iU/edit?usp=sharing).
+1. Introduction to to the workshop and tools. [Slides link](https://docs.google.com/presentation/d/11251tEp-g5K2HC1zqes_lgwPKEzLLxruH3J8dwQfckI/edit#slide=id.g872ddefe8c_0_77)
 2. Introduction to Python
 3. Data exploration and visualisation using Pandas
 4. Automating tasks
