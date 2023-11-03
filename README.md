@@ -1,78 +1,76 @@
-# CIC - Carpentries Python Material
+# Curtin Institute for Data Science - Introduction to Data Science using Python
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/CurtinIC/CIC_Carpentries_Python/master)
 
 
 ## Schedule
 
-1. Introduction to to the workshop and tools. [Slides link](https://docs.google.com/presentation/d/11251tEp-g5K2HC1zqes_lgwPKEzLLxruH3J8dwQfckI/edit#slide=id.g872ddefe8c_0_77)
-2. Introduction to Python
-3. Data exploration and visualisation using Pandas
-4. Automating tasks
+1. [Introduction to the Workshop and Tools](https://docs.google.com/presentation/d/1fLcE69MHGyxIe7hQbCRfwvFBdZb83kb4wilbCrWWq0w/edit?usp=sharing)
+2. [Short Introduction to Programming in Python](https://datacarpentry.org/python-ecology-lesson/01-short-introduction-to-Python.html)
+3. [Starting With Data](https://datacarpentry.org/python-ecology-lesson/02-starting-with-data.html)
+4. [Indexing, Slicing and Subsetting DataFrames in Python](https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset.html)
+5. [Data Types and Formats](https://datacarpentry.org/python-ecology-lesson/04-data-types-and-format.html)
+6. [Combining DataFrames with Pandas](https://datacarpentry.org/python-ecology-lesson/05-merging-data.html)
+7. [Data Workflows and Automation](https://datacarpentry.org/python-ecology-lesson/06-loops-and-functions.html)
+8. [Making Plots with plotnine](https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python.html)
 
-## Installing Anaconda
+## Installing Miniconda
 
 ### Windows
-- Open https://www.anaconda.com/distribution/#download-section with your web browser.
-- Download the Anaconda for Windows installer with Python 3.9. (If you are not sure which version to choose, you probably want the 64-bit Graphical Installer)
-- Install Python 3 by running the Anaconda Installer, using the recommended settings. **Make sure that Register Anaconda as my default Python 3.x option is checked – it should be in the latest version of Anaconda..**
+- Open https://docs.conda.io/projects/miniconda/en/latest/ with your web browser.
+- Download Miniconda3 Windows 64-bit.
+- Install by running the Miniconda Installer, using the recommended settings.
+- After installing, open the "Anaconda Prompt (miniconda3)" program to use Miniconda 3.
 
 ## MacOS
-- Open https://www.anaconda.com/distribution/#download-section with your web browser.
-- Download the Anaconda Installer with Python 3.9 for macOS (You can either use the Graphical or the Command Line Installer).
-- Follow the Anaconda Python 3 installation instructions. Make sure that the install location is set to “Install only for me” so Anaconda will install its files locally, relative to your home directory. Installing the software for all users tends to create problems in the long run and should be avoided.
+- Open https://docs.conda.io/projects/miniconda/en/latest/ with your web browser.
+- Download Miniconda3 macOS Apple M1 64-bit pkg.
+- Install by running the Miniconda Installer, using the recommended settings.
+- After installing, re-open Terminal to use Miniconda 3.
 
 ## Linux
-- Open https://www.anaconda.com/distribution/#download-section with your web browser.
-- Download the Anaconda Installer with Python 3.9 for Linux (Select the 64-Bit (x86) Installer).
-
-(The installation requires using the shell. If you aren't comfortable doing the installation yourself stop here and request help at the workshop.)
-- Open a terminal window and navigate to the directory where the executable is downloaded (e.g., `cd ~/Downloads`).
+- Open https://docs.conda.io/projects/miniconda/en/latest/ with your web browser.
+- Download the relevant package for your specific flavour of Linux.
+- Open a Terminal window and navigate to your download directory.
 - Type
-```
-bash Anaconda3-
-```
+  ```
+  bash Miniconda3-
+  ```
 - and then press **Tab** to autocomplete the full file name. The name of file you just downloaded should appear. Press Enter. 
 - You will follow the text-only prompts. 
   - To move through the text, press **Spacebar**. 
   - Type yes and press enter to approve the license. 
   - Press **Enter** to approve the default location for the files. 
-  - Type yes and press Enter to prepend Anaconda to your PATH (this makes the Anaconda distribution the default Python).
-- Close the terminal window.
+  - Type yes and press Enter to prepend Miniconda to your PATH (this makes the Miniconda distribution the default Python).
+- After installing, re-open Terminal to use Miniconda 3.
 
-## Create a conda environment for the workshop (optional but recommended)
+## Creating a conda environment
 
-Anaconda includes an environment manager called conda. Environments allow you to have multiple sets of Python packages installed at the same time, making reproducibility and upgrades easier. You can create, export, list, remove, and update environments that have different versions of Python and/or packages installed in them.
+Environments allow you to have multiple sets of Python packages installed at the same time, making reproducibility and upgrades easier. You can create, export, lis, remove and update environments that have different versions of Python and/or packages installed in them.
 
-You can create a conda environment for this workshop using the provided .yml file. The python version and all needed packages are listed in the environment.yml file.
+You can create a conda environment for this workshop using the supplied *environment.yml* file which specifies the Python version and required packages. 
 
-**Using the command line**
-
-On Mac or Linux, open your terminal, on Windows, open the Anaconda Prompt terminal app.
-
-Now navigate to this repository directory in the terminal. For example, if you installed the CIC_Carpentries_Python repository on your Desktop, you could type the following.
-
-On a Mac/Linux:
-```
-% cd Desktop/CIC_Carpentries_Python/
-```
-On Windows:
-```
-% cd Desktop\CIC_Carpentries_Python\
-```
-And finally, on any platform, to install and activate the CIC_Carpentries_Python environment, type:
-```
-% conda env create --file environment.yml
-% conda activate cic-workshop
-```
-Note, you will need conda version 4.6 and later. If you need to update your version use `conda update conda`.
-
-**Using Anaconda Navigator**
-
-To use the Anaconda Navigator GUI, check the step by step guide at the end of the [google slides](https://tinyurl.com/resbaz2022python) accompanying this workshop.
+1. On Windows, open "Anaconda Prompt (miniconda3) or if using Mac/Linux, open Terminal.
+2. Navigate to this repository. For example, if you downloaded the CIC_Carpentries_Python respository in your Downloads directory, you could type the following.
+    ```
+    % cd Desktop
+    % cd CIC_Carpentries_Python
+    ```
+3. To install the environment on any platform and activate the CIC_Carpentries_Python environment, type:
+    ```
+    % conda env create ---file environment.yml
+    % conda activate cids-workshop
+    ```
+  
+## Installing VS Code (Optional)
+1. Open https://code.visualstudio.com/ with your web browser.
+2. Download VS Code for your specific platform/Operating System.
+3. Run the VS Code Installer.
+4. Open VS Code and in the Extension sidebar and install the Python and Jupyter extensions.
 
 ## Further Reading
 
 - Using Anaconda for package management ([cheatsheet](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf)) and [setting up environments](https://medium.com/datareply/working-with-python-environments-anaconda-package-manager-and-ides-663e771b6ed8)
-- [Python](https://www.python.org/), and
+- [Python](https://www.python.org/)
 - [Jupyter Notebooks](http://jupyter.org/)
+- [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
