@@ -14,6 +14,12 @@
 7. [Data Workflows and Automation](https://datacarpentry.org/python-ecology-lesson/06-loops-and-functions.html)
 8. [Making Plots with plotnine](https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python.html)
 
+## Before You Start
+Prior to attending the workshop, please download a copy of this repository as follows and extract it in your Downloads folder. 
+![Download Instructions](./pictures/repo_instructions.png)
+
+You will also need to follow the below instructions to configure your personal laptop. Please ensure that you have admin permissions if you are using a corporate laptop.
+
 ## Installing Miniconda
 
 ### Windows
