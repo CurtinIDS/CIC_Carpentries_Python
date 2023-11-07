@@ -64,7 +64,7 @@ You can create a conda environment for this workshop using the supplied *environ
     ```
 3. To install the environment on any platform and activate the CIC_Carpentries_Python environment, type:
     ```
-    % conda env create ---file environment.yml
+    % conda env create --file environment.yml
     % conda activate cids-workshop
     ```
   
