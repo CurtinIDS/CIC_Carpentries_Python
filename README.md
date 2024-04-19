@@ -59,13 +59,13 @@ You can create a conda environment for this workshop using the supplied *environ
 1. On Windows, open "Anaconda Prompt (miniconda3) or if using Mac/Linux, open Terminal.
 2. Navigate to this repository. For example, if you downloaded the CIC_Carpentries_Python respository in your Downloads directory, you could type the following.
     ```
-    % cd Desktop
-    % cd CIC_Carpentries_Python
+    cd Desktop
+    cd CIC_Carpentries_Python-master
     ```
 3. To install the environment on any platform and activate the CIC_Carpentries_Python environment, type:
     ```
-    % conda env create --file environment.yml
-    % conda activate cids-workshop
+    conda env create --file environment.yml
+    conda activate cids-workshop
     ```
   
 ## Installing VS Code (Optional)
